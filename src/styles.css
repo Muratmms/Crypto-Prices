@@ -1,0 +1,54 @@
+.container {
+    background-color: burlywood;
+    padding: 50px;
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+.title {
+    text-transform: uppercase; 
+    letter-spacing: 20px; 
+    text-align: center;
+    color:blue;
+}
+
+td {
+  padding: 2%;
+  border-bottom: 2px solid black;
+}
+
+thead th {
+    height: 100px;
+    width: 250px;
+}
+
+.thead-container {
+    background-color: white;
+}
+
+.sayfalandirma {
+    padding: 1%;
+    text-align: center;
+   
+}
+
+.sayfalandirma button {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 75px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+} 
+
+.arama-container {
+    position: absolute;
+    top: 75px;
+    right: 75px;
+}
+
+.thead-container th:nth-child(8) {
+    width: 400px; 
+  }
